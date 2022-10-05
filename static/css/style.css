@@ -1,12 +1,39 @@
-body{
-    margin: 0%
+html, body{
+    margin:0%; height: 100%; background-color: rgb(220, 220, 220);
 }
 
+/* Cabeçalho */
 header{
-    background-color: orange; height: 20%; width: 100%;
+    background-color: orange; height: 13%; width: 100%; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #title{
-    align-items: center;
+    display: flex; justify-content: center;
 }
+
+#tec{
+    color: rgb(81, 81, 81); display: inline-block; width: auto; margin: 0%;
+}
+
+#blog{
+    color: white; display: inline-block; width: auto; margin: 0%; position: relative; right: 5px;
+}
+
+.links{
+    display: flex; justify-content: center;
+}
+
+.pages{
+    text-decoration: none; box-sizing: border-box;
+    padding: .5rem 1rem;
+    color: white; margin-top: 30px; font-size: 18px;
+}
+
+/* Conteúdo */
+main{
+    height: 87%; width: 100%;
+}
+
+
 
