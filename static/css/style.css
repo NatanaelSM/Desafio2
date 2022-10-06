@@ -1,5 +1,5 @@
 html, body{
-    margin:0%; height: 100%; background-color: rgb(220, 220, 220);
+    margin:0%; height: auto; background-color: rgb(220, 220, 220);
 }
 
 /* Cabeçalho */
@@ -8,7 +8,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#title{
+#title1{
     display: flex; justify-content: center;
 }
 
@@ -31,9 +31,28 @@ header{
 }
 
 /* Conteúdo */
-main{
-    height: 87%; width: 100%;
+section{
+    height: auto; width: 340px;
+    display: flexbox; margin-left: 675px; margin-top: 20px;
 }
 
+#maincontent{
+    width: 200%;
+    background-color: aqua;
+}
+
+.content1{
+    background-color: white;
+    height: 675px; width: 100%;
+}
+
+h2, p, img, .leia {
+    display: flexbox; margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h2, a{
+    color: orange;
+}
 
 
